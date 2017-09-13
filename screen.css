@@ -50,6 +50,27 @@ table {
 /* End Reset CSS */
 /* Begin Site Styles */
 
+/* Using modular scale http://www.modularscale.com/?18&px&1.667 */
+
+html {
+	font-size: 1.125em; /* 18 / 16 = 1.125 */
+	line-height: 1.222222em; /* 22 /19 = 1.222... aka 122% */
+  padding-top: 2.444444em; /* 44 / 18 */
+	padding-right: 1.222222em;
+	padding-left: 1.222222em;
+
+}
+figure, p {
+	padding-bottom: 1.22222em;
+}
+
+h1 {
+	font-size: 2.778em; /* 50.02px / 18px = 2.778 */
+	line-height: 1.319em; /* 66px / 50.02px = 1.319em ; 3 gridlines (22px) */
+}
+
+
+
 /* Responsive Images */
 img {
 	display: block;
