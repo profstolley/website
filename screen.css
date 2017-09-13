@@ -53,6 +53,11 @@ table {
 /* Using modular scale http://www.modularscale.com/?18&px&1.667 */
 
 html {
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+	text-size-adjust: 100%;
+	text-rendering: optimizeLegibility;
 	font-size: 1.125em; /* 18 / 16 = 1.125 */
 	line-height: 1.222222em; /* 22 /19 = 1.222... aka 122% */
   padding-top: 2.444444em; /* 44 / 18 */
