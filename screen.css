@@ -60,8 +60,14 @@ html {
 	padding-left: 1.222222em;
 
 }
-figure, p {
+figure {
 	padding-bottom: 1.22222em;
+}
+p {
+	text-indent: 1.222222em;
+}
+h1 + p {
+	text-indent: 0;
 }
 
 h1 {
