@@ -52,18 +52,28 @@ table {
 
 /* Using modular scale http://www.modularscale.com/?18&px&1.667 */
 
+/* Base */
+/* Simple, HTML/element selectors */
+/* Typographic styles; colors; spacing (above & below) */
+
 html {
 	-moz-text-size-adjust: 100%;
 	-webkit-text-size-adjust: 100%;
 	-ms-text-size-adjust: 100%;
 	text-size-adjust: 100%;
 	text-rendering: optimizeLegibility;
+	font-family: Helvetica, Arial, sans-serif;
 	font-size: 1.125em; /* 18 / 16 = 1.125 */
 	line-height: 1.222222em; /* 22 /19 = 1.222... aka 122% */
   padding-top: 2.444444em; /* 44 / 18 */
 	padding-right: 1.222222em;
 	padding-left: 1.222222em;
-
+  color: brown;
+}
+h1 {
+	font-family: "Times New Roman", Times, Roman, serif;
+	font-size: 2.778em; /* 50.02px / 18px = 2.778 */
+	line-height: 1.319em; /* 66px / 50.02px = 1.319em ; 3 gridlines (22px) */
 }
 figure {
 	padding-bottom: 1.22222em;
@@ -75,9 +85,31 @@ h1 + p {
 	text-indent: 0;
 }
 
-h1 {
-	font-size: 2.778em; /* 50.02px / 18px = 2.778 */
-	line-height: 1.319em; /* 66px / 50.02px = 1.319em ; 3 gridlines (22px) */
+/* Layout Styles */
+/* ID selectors (major landmark/global HTML structures) */
+#header {
+	/* Layout styles go here */
+}
+
+/* Modular Styles */
+/*
+  Class selectors, sometimes descendent/child selectors,
+  repeating styles throughout a site/page
+*/
+.agenda {
+	/* Repeating styles */
+}
+.agenda li {
+
+}
+
+/* State Styles */
+/* JavaScript or media-query dependent styles */
+
+@media screen and (min-width: 680px) {
+	#page {
+		width: 80%;
+	}
 }
 
 
