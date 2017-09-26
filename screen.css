@@ -16,35 +16,35 @@ article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
-	display: block;
+  display: block;
 }
 html {
-	line-height: 1;
+  line-height: 1;
 }
 ol, ul {
-	list-style: none;
+  list-style: none;
 }
 blockquote, q {
-	quotes: none;
+  quotes: none;
 }
 blockquote:before, blockquote:after,
 q:before, q:after {
-	content: '';
-	content: none;
+  content: '';
+  content: none;
 }
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+  border-collapse: collapse;
+  border-spacing: 0;
 }
 
 /* End Reset CSS */
@@ -57,38 +57,38 @@ table {
 /* Typographic styles; colors; spacing (above & below) */
 
 html {
-	-moz-text-size-adjust: 100%;
-	-webkit-text-size-adjust: 100%;
-	-ms-text-size-adjust: 100%;
-	text-size-adjust: 100%;
-	text-rendering: optimizeLegibility;
-	font-family: Helvetica, Arial, sans-serif;
-	font-size: 1.125em; /* 18 / 16 = 1.125 */
-	line-height: 1.222222em; /* 22 /19 = 1.222... aka 122% */
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+  text-rendering: optimizeLegibility;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 1.125em; /* 18 / 16 = 1.125 */
+  line-height: 1.222222em; /* 22 /19 = 1.222... aka 122% */
   padding-top: 2.444444em; /* 44 / 18 */
-	padding-right: 1.222222em;
-	padding-left: 1.222222em;
+  padding-right: 1.222222em;
+  padding-left: 1.222222em;
   color: brown;
 }
 h1 {
-	font-family: "Times New Roman", Times, Roman, serif;
-	font-size: 2.778em; /* 50.02px / 18px = 2.778 */
-	line-height: 1.319em; /* 66px / 50.02px = 1.319em ; 3 gridlines (22px) */
+  font-family: "Times New Roman", Times, Roman, serif;
+  font-size: 2.778em; /* 50.02px / 18px = 2.778 */
+  line-height: 1.319em; /* 66px / 50.02px = 1.319em ; 3 gridlines (22px) */
 }
 figure {
-	padding-bottom: 1.22222em;
+  padding-bottom: 1.22222em;
 }
 p {
-	text-indent: 1.222222em;
+  text-indent: 1.222222em;
 }
 h1 + p {
-	text-indent: 0;
+  text-indent: 0;
 }
 
 /* Layout Styles */
 /* ID selectors (major landmark/global HTML structures) */
 #header {
-	/* Layout styles go here */
+  /* Layout styles go here */
 }
 
 /* Modular Styles */
@@ -97,7 +97,7 @@ h1 + p {
   repeating styles throughout a site/page
 */
 .agenda {
-	/* Repeating styles */
+  /* Repeating styles */
 }
 .agenda li {
 
@@ -107,15 +107,15 @@ h1 + p {
 /* JavaScript or media-query dependent styles */
 
 @media screen and (min-width: 680px) {
-	#page {
-		width: 80%;
-	}
+  #page {
+    width: 80%;
+  }
 }
 
 
 
 /* Responsive Images */
 img {
-	display: block;
-	max-width: 100%;
+  display: block;
+  max-width: 100%;
 }
